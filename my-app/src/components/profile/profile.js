@@ -5,7 +5,8 @@ import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import resumeData from "../../utils/resumeData";
 import './profile.css'
 import { TimelineContent, TimelineItem } from "@mui/lab";
-
+import CustomButton from "../button/button"
+import GetAppIcon from '@mui/icons-material/GetApp';
 
 const CustomTimelineItem = ({ title, text, link }) => (
     <TimelineItem>
@@ -34,16 +35,17 @@ const Profile = () => {
             </figure>
             <div className="profile_info">
                 <CustomTimeline icon={<PersonOutlineIcon />} >
-                    <CustomTimelineItem title={"Name"} text={resumeData.name}/>
-                    <CustomTimelineItem title={"DOB"} text={resumeData.birthday}/>
-                    <CustomTimelineItem title={"Occupation"} text={resumeData.job}/>
-                    <CustomTimelineItem title={"Email"} text={resumeData.email}/>
+                    <CustomTimelineItem title={"Name"} text={resumeData.name} />
+                    <CustomTimelineItem title={"DOB"} text={resumeData.birthday} />
+                    <CustomTimelineItem title={"Occupation"} text={resumeData.job} />
+                    <CustomTimelineItem title={"Email"} text={resumeData.email} />
                     {Object.keys(resumeData.socials).map((key) => (
-                        <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link}/>
+                        <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link} />
                     ))}
                 </CustomTimeline>
-                <br />
-                <button>123</button>
+                <div className="button_holder">
+                    <CustomButton text="Download CV" icon={<GetAppIcon />} />
+                </div>
             </div>
         </div>
     )

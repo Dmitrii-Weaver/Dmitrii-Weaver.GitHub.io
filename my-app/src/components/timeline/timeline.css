@@ -1,5 +1,5 @@
 .timeline{
-    padding: 0 !important;
+    padding: 0px !important;
 }
 
 /*header*/
@@ -34,7 +34,6 @@
     color: black !important;
     border-color: var(--main-color) !important;
     padding: 2px !important;
-
 }
 
 .timeline .MuiTimelineConnector-root {
@@ -53,4 +52,8 @@
 .timeline .timeline_content {
     padding-top: 0px !important;
     margin-bottom: 20px;
+}
+
+.css-ha3bif-MuiTimelineItem-root{
+    min-height: 50px !important;
 }
