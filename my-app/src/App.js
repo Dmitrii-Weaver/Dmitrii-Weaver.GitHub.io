@@ -20,8 +20,9 @@ function App() {
           <Profile /> 123
         </Grid>
         <Grid item xs>
-          <Header />
+
           <Router>
+          <Header />
             <Routes>
               <Route path='/portfolio' element={<Portfolio />} />
               <Route path='/' element={<Resume />} />
