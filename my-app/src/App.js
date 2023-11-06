@@ -17,12 +17,11 @@ function App() {
     <Container className='top_60'>
       <Grid container spacing={7}>
         <Grid item lg={3} md={4} xs={12} sm={12}>
-          <Profile /> 123
+          <Profile /> 
         </Grid>
         <Grid item xs>
-
           <Router>
-          <Header />
+            <Header />
             <Routes>
               <Route path='/portfolio' element={<Portfolio />} />
               <Route path='/' element={<Resume />} />

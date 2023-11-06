@@ -10,7 +10,6 @@
     font-weight: 500 ;
     color: darkslategray !important;
 }
-
 .header .header_link:hover {
     color: var(--main-color) !important;
 }
@@ -29,7 +28,11 @@
     border-top-left-radius: 6px;
     border-bottom-left-radius:  6px;
 }
-
+.nav-link{
+    padding: 0;
+    padding-right: 10px !important;
+    
+}
 .header .header_left {
     margin-right: auto;
 }

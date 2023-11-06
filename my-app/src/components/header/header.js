@@ -1,12 +1,13 @@
 import React from 'react'
 import { Buttom, Form, FormControl, Nav, Navbar, NavbarBrand, NavDropdown, NavLink } from "react-bootstrap"
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom"
 import { HomeRounded, Telegram } from '@mui/icons-material';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import resumeData from '../../utils/resumeData';
 import CustomButton from '../button/button';
 import { useNavigate } from "react-router";
 import "./header.css"
+import { MenuItem } from '@mui/material';
 
 const withRouter = (Component) => {
   const Wrapper = (props) => {
@@ -17,23 +18,30 @@ const withRouter = (Component) => {
 };
 
 const Header = (props) => {
-  const pathname = props?.location?.pathname
+  const pathname = window.location.pathname
+  console.log(pathname)
 
   return (
     <Navbar expand="lg" sticky='top' className='header'>
       {/*home link*/}
-      <NavLink as={NavLink} to="/">
+      <Link exact to="/">
         <Navbar.Brand className='header_home'>
           <HomeRounded />
         </Navbar.Brand>
-      </NavLink>
+      </Link>
+
       <Navbar.Toggle />
+
       <Navbar.Collapse>
         <Nav className='header_left'>
           {/*resume link*/}
-          <Nav.Link as={NavLink} to="/" className={pathname == "/" ? "header_link_active" : "header_link"}>Resume</Nav.Link>
+          <Link to="/" className={pathname == "/" ? "header_link_active" : "header_link"} style={{ textDecoration: 'none' }}  >
+            <MenuItem style={{ paddingLeft: 13 }}>Resume</MenuItem>
+          </Link> &nbsp;
           {/*portfolio link*/}
-          <Nav.Link as={NavLink} to="/portfolio" className={pathname == "/portfolio" ? "header_link_active" : "header_link"}>portfolio</Nav.Link>
+          <Link to="/portfolio" className={pathname == "/portfolio" ? "header_link_active" : "header_link"} style={{ textDecoration: 'none' }} > 
+            <MenuItem style={{ paddingLeft: 13 }}>Portfolio</MenuItem>
+          </Link>
         </Nav>
         <div className='header_right'>
           {Object.keys(resumeData.socials).map(key => (
