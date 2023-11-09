@@ -2,6 +2,10 @@
     --main-color: #bbcbe6
 }
 
+.pt_45{
+    padding-top: 45px !important;
+}
+
 .top_60{
     margin-top: 60px !important;
 }
@@ -20,6 +24,15 @@
 
 .mb_30 {
     margin-bottom: 30px !important;
+}
+
+
+.graybg {
+    background-color: #fafafa;
+}
+
+.p_50{
+    padding: 50px !important;
 }
 
 
@@ -43,7 +56,6 @@
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     margin-bottom: 30px;
-    padding: 30px;
 
 }
 
@@ -70,3 +82,8 @@
     background-color: var(--main-color);
 }
 
+
+.section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
