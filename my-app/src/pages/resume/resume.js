@@ -110,9 +110,6 @@ const Resume = () => {
 
       </Grid>
 
-      {/*contacts*/}
-      <Grid container className='section'></Grid>
-
     </>
   )
 }
