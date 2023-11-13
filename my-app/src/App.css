@@ -31,6 +31,10 @@
     background-color: #fafafa;
 }
 
+.whitebg {
+    background-color: white;
+}
+
 .p_50{
     padding: 50px !important;
 }
