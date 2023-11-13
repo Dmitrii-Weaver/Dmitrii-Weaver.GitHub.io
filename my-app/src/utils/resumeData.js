@@ -3,6 +3,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import WebIcon from '@mui/icons-material/Web';
 import StorageIcon from '@mui/icons-material/Storage';
 import BrushIcon from '@mui/icons-material/Brush';
+import ConnectingAirportsIcon from '@mui/icons-material/ConnectingAirports';
+import AllInclusiveIcon from '@mui/icons-material/AllInclusive';
+import SetMealIcon from '@mui/icons-material/SetMeal';
 
 export default {
     name: "Dmitrii Tkachev",
@@ -96,5 +99,58 @@ export default {
             title: "Design",
             description: ["SAI2", "Shotcut"]
         },
+    ],
+
+    Portfolio : [
+        {
+            tag: 'React',
+            image: "Cavokapp.jpg",
+            title: "Cavokapp - Pilot logbook",
+            desc:"Designed and tested features for Cavokapp web application.",
+            links: [
+                {link:"https://www.cavokapp.com/", icon:<ConnectingAirportsIcon/>}
+
+            ]
+        },
+        {
+            tag: 'C#',
+            image: "keyloop.jpg",
+            title: "Keyloop API development",
+            desc:"Designed and tested features for local API and Database.",
+            links: [
+                {link:"https://keyloop.com/", icon:<AllInclusiveIcon/>}
+
+            ]
+        },
+        {
+            tag: 'React',
+            image: "bday.jpg",
+            title: "Birthday project - web app",
+            desc:"Together with another developer created a web page filled with birthday wishes, messages, images, video and audio files.",
+            links: [
+                {link:"https://fromchumbieswithlove.com/", icon:<SetMealIcon/>}
+
+            ]
+        },
+        {
+            tag: 'React',
+            image: "map.jpg",
+            title: "CarCharMap - Interactive Car charger map",
+            desc:"A university project web app showing a Map of available electric car chargers across the country. The Web app allows map display, log in system (with API also build by me for this project), filtering by parameters/location and price calculation",
+            links: [
+                {link:"https://github.com/Dmitrii-Weaver/CarChar", icon:<GitHubIcon/>}
+
+            ]
+        },
+        {
+            tag: 'Other',
+            image: "survey.jpg",
+            title: "Online survey engineer",
+            desc:"Designed and developed online surveys based on documentation provided by client",
+            links: [
+                {link:"https://github.com/Dmitrii-Weaver/", icon:<GitHubIcon/>}
+
+            ]
+        }
     ]
 }
