@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
 import "./portfolio.css"
-import { CardActionArea, CardContent, CardMedia, Grid, Grow, Tab, Tabs, Typography } from '@mui/material'
+import { CardActionArea, CardContent, CardMedia, Dialog, DialogActions, DialogContent, DialogTitle, Grid, Grow, Tab, Tabs, Typography } from '@mui/material'
 import resumeData from "../../utils/resumeData";
 import { Card } from 'react-bootstrap';
 
 const Portfolio = () => {
   const [tabValue, setTabValue] = useState("All")
+  const [pDialog, setPDialog] = useState(false)
+
 
 
   return (
@@ -34,12 +36,12 @@ const Portfolio = () => {
               <>
                 {tabValue == p.tag || tabValue == "All" ? (<Grid item>
                   <Grow in timeout={1000}>
-                    <Card className='CustomCard'>
+                    <Card className='customCard' onClick={() => setPDialog(p)}>
                       <CardActionArea>
-                        <CardMedia />
+                        <CardMedia className='customCard_image' image={p.image} title={p.title} />
                         <CardContent>
-                          <Typography>{p.title}</Typography>
-                          <Typography>{p.desc}</Typography>
+                          <Typography className='customCard_title'>{p.title}</Typography>
+                          <Typography variant='body2' className='customCard_desc'>{p.caption}</Typography>
                         </CardContent>
                       </CardActionArea>
                     </Card>
@@ -52,6 +54,16 @@ const Portfolio = () => {
           </Grid>
         </Grid>
       </Grid>
+      <Dialog open={pDialog} onClose={() => setPDialog(false)}>
+        <DialogTitle onClose={() => setPDialog(false)}>{pDialog.title}</DialogTitle>
+        <img src="" alt="" />
+        <DialogContent>{pDialog.desc}</DialogContent>
+        <DialogActions>
+          {pDialog?.links?.map(link => (
+            <a href={link.link} target='_blank'>{link.icon}</a>
+          ))}
+        </DialogActions>
+      </Dialog>
     </Grid>
   )
 }

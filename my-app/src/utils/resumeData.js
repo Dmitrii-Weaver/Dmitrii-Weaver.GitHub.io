@@ -104,9 +104,10 @@ export default {
     Portfolio : [
         {
             tag: 'React',
+            caption:"Developed and tested new feature for Cavokapp web application",
             image: "Cavokapp.jpg",
             title: "Cavokapp - Pilot logbook",
-            desc:"Designed and tested features for Cavokapp web application.",
+            desc:"Designed and tested features for Cavokapp web application on a dedicated development branch that were later merged into the live branch of the product.",
             links: [
                 {link:"https://www.cavokapp.com/", icon:<ConnectingAirportsIcon/>}
 
@@ -114,9 +115,10 @@ export default {
         },
         {
             tag: 'C#',
+            caption:"Designed and tested features for local API and Database.",
             image: "keyloop.jpg",
             title: "Keyloop API development",
-            desc:"Designed and tested features for local API and Database.",
+            desc:"Designed and tested features for local API and Database using standartized company environment and hardware.",
             links: [
                 {link:"https://keyloop.com/", icon:<AllInclusiveIcon/>}
 
@@ -124,6 +126,7 @@ export default {
         },
         {
             tag: 'React',
+            caption:"Designed and developed a celebratory web page.",
             image: "bday.jpg",
             title: "Birthday project - web app",
             desc:"Together with another developer created a web page filled with birthday wishes, messages, images, video and audio files.",
@@ -134,6 +137,7 @@ export default {
         },
         {
             tag: 'React',
+            caption:"Designed and developed a web app to manage electric car charging.",
             image: "map.jpg",
             title: "CarCharMap - Interactive Car charger map",
             desc:"A university project web app showing a Map of available electric car chargers across the country. The Web app allows map display, log in system (with API also build by me for this project), filtering by parameters/location and price calculation",
@@ -144,9 +148,10 @@ export default {
         },
         {
             tag: 'Other',
+            caption:"Designed and Developed online surveys",
             image: "survey.jpg",
             title: "Online survey engineer",
-            desc:"Designed and developed online surveys based on documentation provided by client",
+            desc:"Designed and developed online surveys based on documentation provided by client, then processed and filed the data.",
             links: [
                 {link:"https://github.com/Dmitrii-Weaver/", icon:<GitHubIcon/>}
 
