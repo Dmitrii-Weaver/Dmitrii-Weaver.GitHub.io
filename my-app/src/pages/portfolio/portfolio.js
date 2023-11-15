@@ -22,7 +22,7 @@ const Portfolio = () => {
         <Tabs
           value={tabValue}
           indicatorColor='white'
-          className='custom_tabs'
+          className='customtabs'
           onChange={(event, newValue) => setTabValue(newValue)} >
           <Tab label="All" value="All" className={tabValue == "All" ? "customtabs_item active" : "customtabs_item"} />
           {[...new Set(resumeData.Portfolio.map(item => item.tag))].map(tag => (
@@ -38,7 +38,7 @@ const Portfolio = () => {
                   <Grow in timeout={1000}>
                     <Card className='customCard' onClick={() => setPDialog(p)}>
                       <CardActionArea>
-                        <CardMedia className='customCard_image' image={p.image} title={p.title} />
+                        <CardMedia  className='customCard_image' image={p.image} title={p.title} />
                         <CardContent>
                           <Typography className='customCard_title'>{p.title}</Typography>
                           <Typography variant='body2' className='customCard_desc'>{p.caption}</Typography>
@@ -56,11 +56,15 @@ const Portfolio = () => {
       </Grid>
       <Dialog open={pDialog} onClose={() => setPDialog(false)}>
         <DialogTitle onClose={() => setPDialog(false)}>{pDialog.title}</DialogTitle>
-        <img src="" alt="" />
-        <DialogContent>{pDialog.desc}</DialogContent>
+        <img src="" alt="" className='pdialog_image' />
+        <DialogContent>
+          <Typography className='pdialog_desc'>
+            {pDialog.desc}
+          </Typography>
+        </DialogContent>
         <DialogActions>
           {pDialog?.links?.map(link => (
-            <a href={link.link} target='_blank'>{link.icon}</a>
+            <a href={link.link} target='_blank' className='pdialog_icon'>{link.icon}</a>
           ))}
         </DialogActions>
       </Dialog>

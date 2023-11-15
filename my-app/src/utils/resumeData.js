@@ -105,7 +105,7 @@ export default {
         {
             tag: 'React',
             caption:"Developed and tested new feature for Cavokapp web application",
-            image: "Cavokapp.jpg",
+            image: "https://blog.wildix.com/wp-content/uploads/2020/06/react-logo.jpg",
             title: "Cavokapp - Pilot logbook",
             desc:"Designed and tested features for Cavokapp web application on a dedicated development branch that were later merged into the live branch of the product.",
             links: [
@@ -116,7 +116,7 @@ export default {
         {
             tag: 'C#',
             caption:"Designed and tested features for local API and Database.",
-            image: "keyloop.jpg",
+            image: "https://res.cloudinary.com/practicaldev/image/fetch/s--2XdEnCAM--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://raw.githubusercontent.com/sandeepkumar17/td-dev.to/di-collection-posts/assets/blog-cover/c-sharp.png",
             title: "Keyloop API development",
             desc:"Designed and tested features for local API and Database using standartized company environment and hardware.",
             links: [
@@ -127,7 +127,7 @@ export default {
         {
             tag: 'React',
             caption:"Designed and developed a celebratory web page.",
-            image: "bday.jpg",
+            image: "https://blog.wildix.com/wp-content/uploads/2020/06/react-logo.jpg",
             title: "Birthday project - web app",
             desc:"Together with another developer created a web page filled with birthday wishes, messages, images, video and audio files.",
             links: [
@@ -138,7 +138,7 @@ export default {
         {
             tag: 'React',
             caption:"Designed and developed a web app to manage electric car charging.",
-            image: "map.jpg",
+            image: "https://blog.wildix.com/wp-content/uploads/2020/06/react-logo.jpg",
             title: "CarCharMap - Interactive Car charger map",
             desc:"A university project web app showing a Map of available electric car chargers across the country. The Web app allows map display, log in system (with API also build by me for this project), filtering by parameters/location and price calculation",
             links: [
@@ -148,8 +148,8 @@ export default {
         },
         {
             tag: 'Other',
-            caption:"Designed and Developed online surveys",
-            image: "survey.jpg",
+            caption:"Designed and Developed online surveys, processed and reported data",
+            image: "https://www.surveylegend.com/wordpress/wp-content/uploads/2020/03/Surveys-Advantages-vs-Disadvantages.png",
             title: "Online survey engineer",
             desc:"Designed and developed online surveys based on documentation provided by client, then processed and filed the data.",
             links: [
