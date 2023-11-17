@@ -33,3 +33,40 @@
     font-weight: 500;
     
 }
+
+.customCard .customCard_desc{
+    color: gray !important;
+    font-weight: 400;
+}
+
+
+
+.pdialog .pdialog_image {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    
+}
+.pdialog .pdialog_desc {
+    margin-top: 10px !important;
+    
+}
+.pdialog .pdialog_actions {
+    justify-content: center !important;
+    margin-bottom: 10px;
+    
+}
+.pdialog .pdialog_icon{
+    color: darkslategray;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.pdialog .pdialog_icon :hover{
+    color: var(--main-color)
+}
+
+.pdialog .pdialog_icon > .MuiSvgIcon-root{
+    font-size: 30px !important;
+}

@@ -34,13 +34,13 @@ const Portfolio = () => {
           <Grid container spacing={2}>
             {resumeData.Portfolio.map(p => (
               <>
-                {tabValue == p.tag || tabValue == "All" ? (<Grid item>
+                {tabValue == p.tag || tabValue == "All" ? (<Grid item xs={12} sm={6} md={4}>
                   <Grow in timeout={1000}>
                     <Card className='customCard' onClick={() => setPDialog(p)}>
                       <CardActionArea>
                         <CardMedia  className='customCard_image' image={p.image} title={p.title} />
                         <CardContent>
-                          <Typography className='customCard_title'>{p.title}</Typography>
+                          <Typography  variant className='customCard_title'>{p.title}</Typography>
                           <Typography variant='body2' className='customCard_desc'>{p.caption}</Typography>
                         </CardContent>
                       </CardActionArea>
@@ -54,9 +54,9 @@ const Portfolio = () => {
           </Grid>
         </Grid>
       </Grid>
-      <Dialog open={pDialog} onClose={() => setPDialog(false)}>
+      <Dialog open={pDialog} onClose={() => setPDialog(false)} className='pdialog' maxWidth={"md"}>
         <DialogTitle onClose={() => setPDialog(false)}>{pDialog.title}</DialogTitle>
-        <img src="" alt="" className='pdialog_image' />
+        <img src={pDialog.image} alt="" className='pdialog_image' />
         <DialogContent>
           <Typography className='pdialog_desc'>
             {pDialog.desc}
