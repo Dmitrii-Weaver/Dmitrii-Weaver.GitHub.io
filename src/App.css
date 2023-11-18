@@ -2,6 +2,11 @@
     --main-color: #bbcbe6
 }
 
+.pt_15{
+    padding-top: 15px !important;
+}
+
+
 .pt_45{
     padding-top: 45px !important;
 }
