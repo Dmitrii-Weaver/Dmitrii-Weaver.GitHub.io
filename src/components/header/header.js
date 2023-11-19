@@ -23,7 +23,7 @@ const Header = (props) => {
 
   return (
     <Navbar expand="lg" sticky='top' className='header'>
-      {/*home link*/}
+      {/*home / link*/}
       <Link exact to="/">
         <Navbar.Brand className='header_home'>
           <HomeRounded />
