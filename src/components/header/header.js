@@ -34,7 +34,7 @@ const Header = (props) => {
 
       <Navbar.Collapse>
         <Nav className='header_left'>
-          {/*resume link*/}
+          {/*resume / link*/}
           <Link to="/" className={pathname == "/" ? "header_link_active" : "header_link"} style={{ textDecoration: 'none' }}  >
             <MenuItem style={{ paddingLeft: 13 }}>Resume</MenuItem>
           </Link> &nbsp;
