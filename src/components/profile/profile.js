@@ -23,6 +23,7 @@ const CustomTimelineItem = ({ title, text, link }) => (
 );
 
 
+
 const Profile = () => {
     return (
         <div className="profile container_shadow">
@@ -44,7 +45,7 @@ const Profile = () => {
                     ))}
                 </CustomTimeline>
                 <div className="button_holder">
-                    <CustomButton text="Download CV" icon={<GetAppIcon />} />
+                    <a  href="DTcv.pdf" download="DTcv.pdf"> <CustomButton text="Download CV"   icon={<GetAppIcon />} /> </a> 
                 </div>
             </div>
         </div>
