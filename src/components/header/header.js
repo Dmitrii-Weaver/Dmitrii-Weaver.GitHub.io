@@ -29,17 +29,15 @@ const Header = (props) => {
           <HomeRounded />
         </Navbar.Brand>
       </Link>
-
       <Navbar.Toggle />
-
       <Navbar.Collapse>
         <Nav className='header_left'>
-          {/*resume / link*/}
+          {/*resume  link*/}
           <Link to="/" className={pathname == "/" ? "header_link_active" : "header_link"} style={{ textDecoration: 'none' }}  >
             <MenuItem style={{ paddingLeft: 13 }}>Resume</MenuItem>
           </Link> &nbsp;
           {/*portfolio link*/}
-          <Link to="/portfolio" className={pathname == "/portfolio" ? "header_link_active" : "header_link"} style={{ textDecoration: 'none' }} > 
+          <Link to="/portfolio" className={pathname == "/portfolio" ? "header_link_active" : "header_link"} style={{ textDecoration: 'none' }} >
             <MenuItem style={{ paddingLeft: 13 }}>Portfolio</MenuItem>
           </Link>
         </Nav>
@@ -47,7 +45,7 @@ const Header = (props) => {
           {Object.keys(resumeData.socials).map(key => (
             <a href={resumeData.socials[key].link} target='_blank'>{resumeData.socials[key].icon}</a>
           ))}
-          <CustomButton text={"Hire me"} icon={<Telegram />} />
+          <a href="DTcv.pdf" download="DTcv.pdf"> <CustomButton text={"Hire me"} icon={<Telegram />} /> </a>
         </div>
       </Navbar.Collapse>
     </Navbar>

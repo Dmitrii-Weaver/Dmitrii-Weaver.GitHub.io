@@ -60,7 +60,7 @@ export default {
         {
             title: "KIT - Kitami Institute of Technology. Japan.",
             date: "2022.10-2023.03",
-            description: "Completed exchange studies in a university in Japan in the field of computer sciences",
+            description: "Completed exchange studies in a university in Japan in the field of computer sciences (specifically - Python, robotics, C#, English and Japanese languages)",
         },
     ],
 
@@ -77,7 +77,7 @@ export default {
         },
         {
             title: "Illustrator",
-            description: "Decent skill in graphics and character design design. 2 Years of experience on a hobby level.",
+            description: "Skilled in graphics and character design. 3 Years of experience on as hobby, designing characters and manufacturing merchandise.",
             icon: <BrushIcon />
         },
     ],
@@ -143,6 +143,17 @@ export default {
             desc:"A university project web app showing a Map of available electric car chargers across the country. The Web app allows map display, log in system (with API also build by me for this project), filtering by parameters/location and price calculation",
             links: [
                 {link:"https://github.com/Dmitrii-Weaver/CarChar", icon:<GitHubIcon/>}
+
+            ]
+        },
+        {
+            tag: 'Python',
+            caption:"Designed and developed simple Discord bots",
+            image: "https://www.videogameschronicle.com/files/2021/05/discord-new-logo.jpg",
+            title: "Discord Bot creation",
+            desc:"Designed and developed simple bots for Discord servers that fetch data and links, run minigames and help with server management",
+            links: [
+                {link:"https://github.com/Dmitrii-Weaver/", icon:<GitHubIcon/>}
 
             ]
         },
