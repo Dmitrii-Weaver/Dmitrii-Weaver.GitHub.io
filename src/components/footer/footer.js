@@ -3,7 +3,6 @@ import "./footer.css"
 import { Typography } from '@mui/material'
 import resumeData from "../../utils/resumeData";
 
-
 const Footer = () => {
   return (
     <div className='footer'>
@@ -14,7 +13,6 @@ const Footer = () => {
         <Typography className='footer_copy'>Designed and developed by  <a href='/' target='_blank'>Dmitrii Tkachev </a>
           <br />
           Original idea from  <a href='https://themeforest.net/' target='_blank' >Tavonline.net</a></Typography>
-
       </div>
     </div>
   )

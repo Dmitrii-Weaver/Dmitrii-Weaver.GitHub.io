@@ -2,6 +2,8 @@
     --main-color: #bbcbe6
 }
 
+/*universal padding classes*/
+
 .pt_15{
     padding-top: 15px !important;
 }

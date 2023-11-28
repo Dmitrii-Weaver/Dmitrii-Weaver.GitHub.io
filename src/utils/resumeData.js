@@ -147,6 +147,17 @@ export default {
             ]
         },
         {
+            tag: 'React',
+            caption:"Designed and developed a chatroom",
+            image: "https://blog.wildix.com/wp-content/uploads/2020/06/react-logo.jpg",
+            title: "Chatrooms",
+            desc:"Designed and developed a functioning online chatroom with registration functionality, that was hosted and available online as a part of the university project",
+            links: [
+                {link:"https://github.com/Dmitrii-Weaver/CarChar", icon:<GitHubIcon/>}
+
+            ]
+        },
+        {
             tag: 'Python',
             caption:"Designed and developed simple Discord bots",
             image: "https://www.videogameschronicle.com/files/2021/05/discord-new-logo.jpg",
