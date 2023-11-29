@@ -30,7 +30,7 @@ export default {
 
     },
 
-    about: "Fresh OAMK graduate - Fullstack Developer and Web Designer with main focus on Web development using React, CSS and Typescript with additional skills and experience in Python, C#, React Native, PHP and Kotlin.  \n  \n Completed full Bachelors Degree in OAMK in the field od Computer Sciences and additional exchange studies in Kitami, Japan in the same field. \n  \n Currently looking for an entry-level position in an IT company on place or remote",
+    about: "Fresh OAMK graduate - Fullstack Developer and Web Designer with main focus on Web development using React, CSS and Typescript with additional skills and experience in Python, C#, React Native, PHP and Kotlin.  \n  \n Completed full Bachelors Degree in OAMK in the field of Computer Sciences and additional exchange studies in Kitami, Japan in the same field. \n  \n Currently looking for an entry-level position in an IT company on place or remote",
 
 
     workexp: [
