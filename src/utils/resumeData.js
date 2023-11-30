@@ -30,24 +30,24 @@ export default {
 
     },
 
-    about: "Fresh OAMK graduate - Fullstack Developer and Web Designer with main focus on Web development using React, CSS and Typescript with additional skills and experience in Python, C#, React Native, PHP and Kotlin.  \n  \n Completed full Bachelors Degree in OAMK in the field of Computer Sciences and additional exchange studies in Kitami, Japan in the same field. \n  \n Currently looking for an entry-level position in an IT company on place or remote",
+    about: "Fresh OAMK graduate - Fullstack Developer and Software Engineer with focus on React, CSS, Python with additional skills and experience in C#, React Native, Typescript, PHP and Kotlin.  \n  \n Received Bachelor of Engineering in Information Technology degree from Oamk in August 2023, also completed additional exchange studies in Kitami, Japan in the same field. \n  \n Currently looking for a Software Developer position, on-site or remote.",
 
 
     workexp: [
         {
-            title: "Backend developer C# .Net - Keyloop",
+            title: "Backend developer on C# .Net - Keyloop",
             date: "2022.02 - 2022.08",
             description: "Designing, developing and testing new functions for company's API on C# .Net while also supervising a group of two other students as a part of my university studies.",
         },
         {
             title: "Frontend developer - Cavokapp.com",
             date: "2021.05 - 2021.08",
-            description: "Implementing new functions for the service's web page.",
+            description: "Implementing and testing new functions for the service's web page.",
         },
         {
             title: "Survey engineer - Terra Pulse Group",
             date: "2018 - 2021",
-            description: 'Creating online surveys using the documentation provided by client via Alchemer tools.',
+            description: 'Creating online surveys using the documentation provided by client and handling the output data.',
         }
     ],
 
@@ -66,7 +66,7 @@ export default {
 
     services: [
         {
-            title: "Web developer",
+            title: "Fullstack developer",
             description: "Design, implementation and assembly of web applications. 5 years of experience + Bachelor's degree.",
             icon: <WebIcon />
         },
@@ -77,7 +77,7 @@ export default {
         },
         {
             title: "Illustrator",
-            description: "Skilled in graphics and character design. 3 Years of experience on as hobby, designing characters and manufacturing merchandise.",
+            description: "Skilled in graphics and character design. 3 Years of experience as hobby, designing characters and manufacturing merchandise.",
             icon: <BrushIcon />
         },
     ],
@@ -107,7 +107,7 @@ export default {
             caption:"Developed and tested new feature for Cavokapp web application",
             image: "https://blog.wildix.com/wp-content/uploads/2020/06/react-logo.jpg",
             title: "Cavokapp - Pilot logbook",
-            desc:"Designed and tested features for Cavokapp web application on a dedicated development branch that were later merged into the live branch of the product.",
+            desc:"Designed and tested features for Kavokapp web application on a dedicated development branch that were later merged into the live branch of the product.",
             links: [
                 {link:"https://www.cavokapp.com/", icon:<ConnectingAirportsIcon/>}
 
