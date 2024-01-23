@@ -104,6 +104,18 @@ export default {
     Portfolio : [
         {
             tag: 'React',
+            caption:"Created an Instagram clone using React, Redux and Firebase",
+            image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202212/instagram-users-irked-with-the-new-update-sixteen_nine.jpg?size=1200:675",
+            title: "Instagram clone",
+            desc:"Created an Instagram clone using React, Redux and Firebase for authentification system.",
+            links: [
+                {link:"https://www.instagram.com/", icon:<ConnectingAirportsIcon/>}
+
+            ]
+        },
+        
+        {
+            tag: 'React',
             caption:"Developed and tested new feature for Cavokapp web application",
             image: "https://blog.wildix.com/wp-content/uploads/2020/06/react-logo.jpg",
             title: "Cavokapp - Pilot logbook",
