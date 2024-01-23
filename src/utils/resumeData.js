@@ -109,7 +109,7 @@ export default {
             title: "Instagram clone",
             desc:"Created an Instagram clone using React, Redux and Firebase for authentification system.",
             links: [
-                {link:"https://www.instagram.com/", icon:<ConnectingAirportsIcon/>}
+                {link:"https://github.com/Dmitrii-Weaver/OutStagram", icon:<GitHubIcon/>}
 
             ]
         },
