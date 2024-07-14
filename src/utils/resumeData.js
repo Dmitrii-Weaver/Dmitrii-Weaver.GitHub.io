@@ -35,6 +35,11 @@ export default {
 
     workexp: [
         {
+            title: "Freelance web developer",
+            date: "2023 - Now",
+            description: 'Creating web apps for private customers.',
+        },
+        {
             title: "Backend developer on C# .Net - Keyloop",
             date: "2022.02 - 2022.08",
             description: "Designing, developing and testing new functions for company's API on C# .Net while also supervising a group of two other students as a part of my university studies.",
@@ -104,12 +109,24 @@ export default {
     Portfolio : [
         {
             tag: 'React',
-            caption:"Created an Instagram clone using React, Redux and Firebase",
+            caption:"Created and hosted an Instagram clone using React, Chakra UI, Redux and Firebase",
             image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202212/instagram-users-irked-with-the-new-update-sixteen_nine.jpg?size=1200:675",
             title: "Instagram clone",
-            desc:"Created an Instagram clone using React, Redux and Firebase for authentification system.",
+            desc:"Created an Instagram clone using React, Redux and Firebase for authentification system. Log in and register system up and running, posts, likes, comments and follows all functional, available here - https://snsprojectdweaver.vercel.app/auth",
             links: [
-                {link:"https://github.com/Dmitrii-Weaver/OutStagram", icon:<GitHubIcon/>}
+                {link:"https://snsprojectdweaver.vercel.app/auth", icon:<WebIcon/>}
+
+            ]
+        },
+
+        {
+            tag: 'React',
+            caption:"Worked on an online store page for an operating food store in Helsinki.",
+            image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd33wubrfki0l68.cloudfront.net%2Fccdd1f46a6a8a919991bc3fc4ef832393ee4d6b2%2F1db7e%2Fimages%2Fapp%2Fecommerce-demo-app.png&f=1&nofb=1&ipt=18617e35a31ae2d4412ee11153e827a1965543393405a6b049a4aecbc01cf5bc&ipo=images",
+            title: "E-commerce app for a store in Helsinki",
+            desc:"Worked on an online store page for an operating food store in Helsinki. Designed with Figma, approved the layout with the customer, created the pages together with a friend. Tested and submitted the code to the customer.",
+            links: [
+                {link:"https://github.com/Dmitrii-Weaver/", icon:<GitHubIcon/>}
 
             ]
         },
