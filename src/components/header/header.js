@@ -5,6 +5,7 @@ import { HomeRounded, Telegram } from '@mui/icons-material';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import resumeData from '../../utils/resumeData';
 import CustomButton from '../button/button';
+import Mailbutton from '../mailbutton/mailbutton';
 import { useNavigate } from "react-router";
 import "./header.css"
 import { MenuItem } from '@mui/material';
@@ -45,7 +46,7 @@ const Header = (props) => {
           {Object.keys(resumeData.socials).map(key => (
             <a href={resumeData.socials[key].link} target='_blank'>{resumeData.socials[key].icon}</a>
           ))}
-          <a href="DTcv.pdf" download="DTcv.pdf"> <CustomButton text={"Hire me"} icon={<Telegram />} /> </a>
+          <a> <Mailbutton text={"Contact me"} icon={<Telegram />} /> </a>
         </div>
       </Navbar.Collapse>
     </Navbar>

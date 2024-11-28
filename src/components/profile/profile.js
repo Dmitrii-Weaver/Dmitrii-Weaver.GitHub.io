@@ -8,6 +8,9 @@ import { TimelineContent, TimelineItem } from "@mui/lab";
 import CustomButton from "../button/button"
 import GetAppIcon from '@mui/icons-material/GetApp';
 
+import Mailbutton from '../mailbutton/mailbutton';
+import { HomeRounded, Telegram } from '@mui/icons-material';
+
 const CustomTimelineItem = ({ title, text, link }) => (
     <TimelineItem>
         <CustomTimelineSeparator />
@@ -45,7 +48,9 @@ const Profile = () => {
                     ))}
                 </CustomTimeline>
                 <div className="button_holder">
-                    <a  href="DTcv.pdf" download="DTcv.pdf"> <CustomButton text="Download CV"   icon={<GetAppIcon />} /> </a> 
+                    <a onClick={(e) => {window.location.href = "mailto:dmitriitkachev11@gmail.com"; e.preventDefault();}} > <CustomButton text="Reach out" icon={<Telegram />} className='custom_button_text'
+                        to='#'
+                        /> </a>
                 </div>
             </div>
         </div>

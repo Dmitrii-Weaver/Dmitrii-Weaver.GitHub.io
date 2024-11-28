@@ -109,12 +109,45 @@ export default {
     Portfolio : [
         {
             tag: 'React',
+            caption:"Worked on creating modern looking landing pages",
+            image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Funbounce.com%2Fphotos%2F750-X-400-2x.jpg&f=1&nofb=1&ipt=c5bcef8690f8bcb235536882c9d10c4367f5acd38f1a6e1a42f4b41aab138d58&ipo=images",
+            title: "Modern Landing page",
+            desc:"Studying tutorials, I have been learning how to create more modern and good looking web pages that would do well for representing potential products or projects",
+            links: [
+                {link:"https://github.com/Dmitrii-Weaver/LandingAdvanced", icon:<GitHubIcon/>}
+
+            ]
+        },
+        {
+            tag: 'React',
+            caption:"Developed a responsive web/mobile application for tracking and managing your daily caffeine intake",
+            image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F1695052%2Fpexels-photo-1695052.jpeg%3Fcs%3Dsrgb%26dl%3Dcoffee-beans-1695052.jpg%26fm%3Djpg&f=1&nofb=1&ipt=1f5762746bdb9dd2088b80161130fbac91994c36dfc8465747fa7c08cbdf0bc3&ipo=images",
+            title: "CoffeeCount",
+            desc:"Developed a responsive web/mobile application for tracking and managing your daily caffeine intake. The app is built using  Expo, React/Typescript, Gluestack and Firebase. Currently functional, but still being worked on to get the best performance.",
+            links: [
+                {link:"https://github.com/Dmitrii-Weaver/CaffeineTracker", icon:<GitHubIcon/>}
+
+            ]
+        },
+        {
+            tag: 'React',
             caption:"Created and hosted an Instagram clone using React, Chakra UI, Redux and Firebase",
             image: "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202212/instagram-users-irked-with-the-new-update-sixteen_nine.jpg?size=1200:675",
             title: "Instagram clone",
             desc:"Created an Instagram clone using React, Redux and Firebase for authentification system. Log in and register system up and running, posts, likes, comments and follows all functional, available here - https://snsprojectdweaver.vercel.app/auth",
             links: [
                 {link:"https://snsprojectdweaver.vercel.app/auth", icon:<WebIcon/>}
+
+            ]
+        },
+        {
+            tag: 'Python',
+            caption:"Completed a course of Python, Pandas and Matplotlib",
+            image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flaptrinhcanban.com%2Fpython%2Fnhap-mon-lap-trinh-python%2Fgioi-thieu-python%2Fpython-la-gi%2FPython.jpg&f=1&nofb=1&ipt=01dc15d351612f4b263ff580000d24b082aebf98905a41604dfb1ddd728d0c96&ipo=images",
+            title: "Pyton course (advanced)",
+            desc:"General Python study arranged in one repo for convenient self tracking",
+            links: [
+                {link:"https://github.com/Dmitrii-Weaver/PythonTest", icon:<GitHubIcon/>}
 
             ]
         },
