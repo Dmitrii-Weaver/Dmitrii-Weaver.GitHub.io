@@ -109,17 +109,6 @@ export default {
     Portfolio: [
         {
             tag: 'Other',
-            caption: "Designed art for merchandise and indie games",
-            image: "https://i.imgur.com/R3rJuvD.jpeg",
-            title: "Digital art",
-            desc: "Did some commission work for fan game projects and merch designs. Examples provided on demand.",
-            links: [
-                { link: "https://github.com/Dmitrii-Weaver/", icon: <GitHubIcon /> }
-
-            ]
-        },
-        {
-            tag: 'Other',
             caption: "Assisted in game and level design for a small indie game project",
             image: "https://cdnb.artstation.com/p/media_assets/images/images/001/032/707/large/untitled.jpg?1674211867",
             title: "Game and level design",
